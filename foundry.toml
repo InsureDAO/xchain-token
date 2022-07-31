@@ -4,3 +4,9 @@ out = 'out'
 libs = ['node_modules', 'lib']
 test = 'test/foundry'
 cache_path  = 'forge-cache'
+
+remappings = [
+    '@openzeppelin/=node_modules/@openzeppelin/',
+    'sgn-v2-contracts/=lib/sgn-v2-contracts/',
+    'forge-std/=lib/forge-std/src/',
+]
